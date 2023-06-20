@@ -1,0 +1,109 @@
+import networkx as nx
+import matplotlib.pyplot as plt
+from matplotlib.cm import get_cmap
+
+# Create Les Misérables network
+network = nx.Graph()
+
+# Add characters as nodes
+characters = [
+    "Valjean", "Fantine", "Cosette", "Marius", "Eponine", "Javert", "Thenardier",
+    "Gavroche", "Enjolras", "Mabeuf", "Bishop Myriel", "Tholomyes", "Grantaire",
+    "Félix Tholomyès", "Azelma", "Montparnasse", "Bahorel", "Combeferre", "Feuilly"
+]
+
+
+
+network.add_nodes_from(characters)
+
+# Define character interactions as edges
+interactions = [
+    ("Valjean", "Fantine"), ("Valjean", "Cosette"), ("Cosette", "Marius"),
+    ("Marius", "Eponine"), ("Marius", "Enjolras"), ("Marius", "Thenardier"),
+    ("Eponine", "Thenardier"), ("Eponine", "Gavroche"), ("Javert", "Valjean"),
+    ("Javert", "Thenardier"), ("Enjolras", "Mabeuf"), ("Mabeuf", "Thenardier"),
+    ("Bishop Myriel", "Valjean"), ("Grantaire", "Enjolras"), ("Tholomyes", "Fantine"),
+    ("Félix Tholomyès", "Cosette"), ("Félix Tholomyès", "Fantine's Daughter"),
+    ("Thenardier", "Gavroche"), ("Thenardier", "Azelma"), ("Montparnasse", "Eponine"),
+    ("Bahorel", "Enjolras"), ("Bahorel", "Feuilly"), ("Combeferre", "Enjolras"),
+]
+
+
+
+network.add_edges_from(interactions)
+
+# Basic network information
+print("Number of nodes:", network.number_of_nodes())
+print("Number of edges:", network.number_of_edges())
+
+# Degree centrality
+degree_centrality = nx.degree_centrality(network)
+sorted_degree = sorted(degree_centrality.items(), key=lambda x: x[1], reverse=True)
+print("Top 5 characters by degree centrality:")
+for character, centrality in sorted_degree[:5]:
+    print(character, centrality)
+
+strong_triadic_closure = nx.transitivity(network)
+print("Strong Triadic Closure:", strong_triadic_closure)
+
+# Closeness centrality
+closeness_centrality = nx.closeness_centrality(network)
+sorted_closeness = sorted(closeness_centrality.items(), key=lambda x: x[1], reverse=True)
+print("Top 5 characters by closeness centrality:")
+for character, centrality in sorted_closeness[:5]:
+    print(character, centrality)
+
+# Betweenness centrality
+betweenness_centrality = nx.betweenness_centrality(network)
+sorted_betweenness = sorted(betweenness_centrality.items(), key=lambda x: x[1], reverse=True)
+print("Top 5 characters by betweenness centrality:")
+for character, centrality in sorted_betweenness[:5]:
+    print(character, centrality)
+
+# Eigenvector centrality
+eigenvector_centrality = nx.eigenvector_centrality(network)
+sorted_eigenvector = sorted(eigenvector_centrality.items(), key=lambda x: x[1], reverse=True)
+print("Top 5 characters by eigenvector centrality:")
+for character, centrality in sorted_eigenvector[:5]:
+    print(character, centrality)
+import matplotlib.pyplot as plt
+from matplotlib.cm import get_cmap
+
+# Visualize the network graph
+pos = nx.spring_layout(network, seed=42)
+nx.draw(network, pos=pos, with_labels=True, node_color="skyblue", edge_color="gray")
+plt.title("Les Misérables Network - Degree Centrality")
+plt.show()
+
+
+
+
+# Calculate centrality measures
+betweenness_centrality = nx.betweenness_centrality(network)
+closeness_centrality = nx.closeness_centrality(network)
+eigenvector_centrality = nx.eigenvector_centrality(network)
+
+# Node colors based on betweenness centrality
+node_colors = [betweenness_centrality[node] for node in network.nodes]
+cmap = get_cmap("Greens")
+nx.draw(network, pos=pos, with_labels=True, node_color=node_colors, cmap=cmap, edge_color="gray")
+plt.title("Les Misérables Network - Betweenness Centrality")
+plt.colorbar(mappable=plt.cm.ScalarMappable(cmap=cmap), label="Betweenness Centrality")
+plt.show()
+
+# Node colors based on closeness centrality
+node_colors = [closeness_centrality[node] for node in network.nodes]
+cmap = get_cmap("Reds")
+nx.draw(network, pos=pos, with_labels=True, node_color=node_colors, cmap=cmap, edge_color="gray")
+plt.title("Les Misérables Network - Closeness Centrality")
+plt.colorbar(mappable=plt.cm.ScalarMappable(cmap=cmap), label="Closeness Centrality")
+plt.show()
+
+# Node colors based on eigenvector centrality
+node_colors = [eigenvector_centrality[node] for node in network.nodes]
+cmap = get_cmap("Purples")
+nx.draw(network, pos=pos, with_labels=True, node_color=node_colors, cmap=cmap, edge_color="gray")
+plt.title("Les Misérables Network - Eigenvector Centrality")
+plt.colorbar(mappable=plt.cm.ScalarMappable(cmap=cmap), label="Eigenvector Centrality")
+plt.show()
+

@@ -1,0 +1,223 @@
+Character 1, Character 2, Co-occurrence
+Luffy, Zoro, 100
+Luffy, Nami, 90
+Luffy, Usopp, 80
+Luffy, Sanji, 70
+Luffy, Chopper, 60
+Luffy, Robin, 50
+Luffy, Franky, 40
+Luffy, Brook, 30
+Zoro, Nami, 80
+Zoro, Usopp, 70
+Zoro, Sanji, 60
+Zoro, Chopper, 50
+Zoro, Robin, 40
+Zoro, Franky, 30
+Zoro, Brook, 20
+Nami, Usopp, 70
+Nami, Sanji, 60
+Nami, Chopper, 50
+Nami, Robin, 40
+Nami, Franky, 30
+Nami, Brook, 20
+Usopp, Sanji, 60
+Usopp, Chopper, 50
+Usopp, Robin, 40
+Usopp, Franky, 30
+Usopp, Brook, 20
+Sanji, Chopper, 50
+Sanji, Robin, 40
+Sanji, Franky, 30
+Sanji, Brook, 20
+Chopper, Robin, 40
+Chopper, Franky, 30
+Chopper, Brook, 20
+Robin, Franky, 30
+Robin, Brook, 20
+Franky, Brook, 20
+
+Shanks, Whitebeard, 90
+Shanks, Blackbeard, 80
+Shanks, Kaido, 70
+Shanks, Big Mom, 60
+Shanks, Akainu, 50
+Shanks, Aokiji, 40
+Shanks, Kizaru, 30
+Shanks, Fujitora, 20
+Shanks, Greenbull, 10
+Whitebeard, Blackbeard, 80
+Whitebeard, Kaido, 70
+Whitebeard, Big Mom, 60
+Whitebeard, Akainu, 50
+Whitebeard, Aokiji, 40
+Whitebeard, Kizaru, 30
+Whitebeard, Fujitora, 20
+Whitebeard, Greenbull, 10
+Blackbeard, Kaido, 70
+Blackbeard, Big Mom, 60
+Blackbeard, Akainu, 50
+Blackbeard, Aokiji, 40
+Blackbeard, Kizaru, 30
+Blackbeard, Fujitora, 20
+Blackbeard, Greenbull, 10
+Kaido, Big Mom, 60
+Kaido, Akainu, 50
+Kaido, Aokiji, 40
+Kaido, Kizaru, 30
+Kaido, Fujitora, 20
+Kaido, Greenbull, 10
+Big Mom, Akainu, 50
+Big Mom, Aokiji, 40
+Big Mom, Kizaru, 30
+Big Mom, Fujitora, 20
+Big Mom, Greenbull, 10
+Akainu, Aokiji, 40
+Akainu, Kizaru, 30
+Akainu, Fujitora, 20
+Akainu, Greenbull, 10
+Aokiji, Kizaru, 30
+Aokiji, Fujitora, 20
+Aokiji, Greenbull, 10
+Kizaru, Fujitora, 20
+Kizaru, Greenbull, 10
+Fujitora, Greenbull, 10
+
+Nami, Vivi, 80
+Nami, Robin, 80
+Nami, Hancock, 70
+Nami, Boa, 70
+Nami, Carrot, 60
+Nami, Yamato, 60
+Nami, Rebecca, 50
+Nami, Shirahoshi, 50
+Zoro, Mihawk, 80
+Zoro, Kaku, 70
+Zoro, Rob Lucci, 60
+Zoro, Jabra, 50
+Zoro, King, 40
+Zoro, Queen, 40
+Zoro, Jack, 30
+Usopp, Franky, 60
+Usopp, Brook, 60
+Sanji, King, 40
+Sanji, Queen, 40
+Sanji, Jack, 30
+Chopper, King, 40
+Chopper, Queen, 40
+Chopper, Jack, 30
+Robin, King, 40
+Robin, Queen, 40
+Robin, Jack, 30
+Franky, King, 40
+Franky, Queen, 40
+Franky, Jack, 30
+Brook, King, 40
+Brook, Queen, 40
+Brook, Jack, 30
+Law, Kid, 80
+Law, Hawkins, 70
+Law, Apoo, 60
+Law, Luffy, 70
+Kid, Hawkins, 70
+Kid, Apoo, 60
+Kid, Luffy, 70
+Hawkins, Apoo, 60
+Hawkins, Luffy, 70
+Apoo, Luffy, 70
+Doflamingo, Crocodile, 80
+Doflamingo, Kaido, 70
+Doflamingo, Big Mom, 60
+Doflamingo, Blackbeard, 50
+Crocodile, Kaido, 70
+Crocodile, Big Mom, 60
+Crocodile, Blackbeard, 50
+Kaido, Big Mom, 60
+Kaido, Blackbeard, 50
+Big Mom, Blackbeard, 50
+Sabo, Ace, 80
+Sabo, Luffy, 70
+Ace, Luffy, 70
+Vivi, Shirahoshi, 80
+Vivi, Rebecca, 70
+Shirahoshi, Rebecca, 70
+Yamato, Momonosuke, 80
+Yamato, Luffy, 70
+Momosuke, Luffy, 70
+Carrot, Yamato, 80
+Carrot, Momonosuke, 70
+Yamato, Momonosuke, 70
+Garp, Sengoku, 80
+Garp, Luffy, 70
+Sengoku, Luffy, 70
+Dragon, Luffy, 80
+Blackbeard, Burgess, 80
+Blackbeard, Shiryu, 70
+Blackbeard, Laffitte, 60
+Blackbeard, Van Augur, 50
+Burgess, Shiryu, 70
+Burgess, Laffitte, 60
+Burgess, Van Augur, 50
+Shiryu, Laffitte, 60
+Shiryu, Van Augur, 50
+Laffitte, Van Augur, 50
+Akainu, Aokiji, 80
+Akainu, Kizaru, 70
+Akainu, Fujitora, 60
+Akainu, Greenbull, 50
+Aokiji, Kizaru, 70
+Aokiji, Fujitora, 60
+Aokiji, Greenbull, 50
+Kizaru, Fujitora, 60
+Kizaru, Greenbull, 50
+Fujitora, Greenbull, 50
+
+Crocodile, Moria, 80
+Crocodile, Doflamingo, 70
+Moria, Doflamingo, 70
+Kuma, Bartholomew, 80
+Kuma, Dragon, 70
+Kuma, Bartholomew, 80
+Kuma, Dragon, 70
+Law, Luffy, 80
+Law, Kidd, 70
+Law, Kid, 70
+Law, Luffy, 80
+Kidd, Luffy, 80
+Kidd, Luffy, 80
+Doflamingo, Law, 80
+Doflamingo, Kidd, 70
+Doflamingo, Law, 80
+Doflamingo, Kidd, 70
+Kaido, Big Mom, 70
+Kaido, Blackbeard, 50
+Big Mom, Blackbeard, 50
+Shanks, Luffy, 90
+Shanks, Blackbeard, 80
+Shanks, Luffy, 90
+Shanks, Blackbeard, 80
+Dragon, Luffy, 80
+Dragon, Luffy, 80
+
+Shanks, Blackbeard, 80
+Shanks, Luffy, 90
+Shanks, Blackbeard, 80
+Shanks, Luffy, 90
+Dragon, Luffy, 80
+Dragon, Luffy, 80
+
+Whitebeard, Blackbeard, 80
+Whitebeard, Shanks, 90
+Whitebeard, Blackbeard, 80
+Whitebeard, Shanks, 90
+Roger, Garp, 90
+Roger, Shanks, 90
+Roger, Garp, 90
+Roger, Shanks, 90
+
+Joyboy, Luffy, 90
+Joyboy, Roger, 90
+Joyboy, Luffy, 90
+Joyboy, Roger, 90
+
+
+
